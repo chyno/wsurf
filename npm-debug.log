@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'c:\\ProgramData\\chocolatey\\lib\\npm.1.4.9\\tools\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'g',
+1 verbose cli   'jspm' ]
+2 info using npm@1.4.9
+3 info using node@v0.12.0
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ '-', null ]
+6 verbose cache add name=undefined spec="-" args=["-",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '-',
+7 verbose parsed url   path: '-',
+7 verbose parsed url   href: '-' }
+8 verbose cache add [ 'g', null ]
+9 verbose cache add name=undefined spec="g" args=["g",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'g',
+10 verbose parsed url   path: 'g',
+10 verbose parsed url   href: 'g' }
+11 verbose cache add [ 'jspm', null ]
+12 verbose cache add name=undefined spec="jspm" args=["jspm",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'jspm',
+13 verbose parsed url   path: 'jspm',
+13 verbose parsed url   href: 'jspm' }
+14 silly lockFile 3bc15c8a- -
+15 verbose lock - C:\Users\developer\AppData\Roaming\npm-cache\3bc15c8a-.lock
+16 silly lockFile 54fd1711-g g
+17 verbose lock g C:\Users\developer\AppData\Roaming\npm-cache\54fd1711-g.lock
+18 silly lockFile 40e8134c-jspm jspm
+19 verbose lock jspm C:\Users\developer\AppData\Roaming\npm-cache\40e8134c-jspm.lock
+20 silly lockFile 3bc15c8a- -
+21 silly lockFile 3bc15c8a- -
+22 silly lockFile 54fd1711-g g
+23 silly lockFile 54fd1711-g g
+24 silly lockFile 40e8134c-jspm jspm
+25 silly lockFile 40e8134c-jspm jspm
+26 verbose addNamed [ '-', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile c75fe0d4- -@
+29 verbose lock -@ C:\Users\developer\AppData\Roaming\npm-cache\c75fe0d4-.lock
+30 verbose addNamed [ 'g', '' ]
+31 verbose addNamed [ null, '*' ]
+32 silly lockFile 8b047e1f-g g@
+33 verbose lock g@ C:\Users\developer\AppData\Roaming\npm-cache\8b047e1f-g.lock
+34 verbose addNamed [ 'jspm', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile f3b9302e-jspm jspm@
+37 verbose lock jspm@ C:\Users\developer\AppData\Roaming\npm-cache\f3b9302e-jspm.lock
+38 silly addNameRange { name: '-', range: '*', hasData: false }
+39 silly addNameRange { name: 'g', range: '*', hasData: false }
+40 verbose url raw -
+41 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+42 verbose url resolved https://registry.npmjs.org/-
+43 info trying registry request attempt 1 at 10:47:13 PM
+44 http GET https://registry.npmjs.org/-
+45 silly addNameRange { name: 'jspm', range: '*', hasData: false }
+46 verbose url raw jspm
+47 verbose url resolving [ 'https://registry.npmjs.org/', './jspm' ]
+48 verbose url resolved https://registry.npmjs.org/jspm
+49 info trying registry request attempt 1 at 10:47:13 PM
+50 verbose etag "EBB0WLRGZXT5KRP1IDDKW19X5"
+51 http GET https://registry.npmjs.org/jspm
+52 verbose url raw g
+53 verbose url resolving [ 'https://registry.npmjs.org/', './g' ]
+54 verbose url resolved https://registry.npmjs.org/g
+55 info trying registry request attempt 1 at 10:47:13 PM
+56 verbose etag "477DN04GVTO43SCFH7QXFX4XE"
+57 http GET https://registry.npmjs.org/g
+58 http 404 https://registry.npmjs.org/-
+59 verbose headers { date: 'Sun, 08 Mar 2015 03:47:17 GMT',
+59 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+59 verbose headers   'content-type': 'application/json',
+59 verbose headers   'cache-control': 'max-age=0',
+59 verbose headers   'content-length': '52',
+59 verbose headers   'accept-ranges': 'bytes',
+59 verbose headers   via: '1.1 varnish',
+59 verbose headers   age: '0',
+59 verbose headers   'x-served-by': 'cache-jfk1020-JFK',
+59 verbose headers   'x-cache': 'MISS',
+59 verbose headers   'x-cache-hits': '0',
+59 verbose headers   'x-timer': 'S1425786437.552501,VS0,VE17',
+59 verbose headers   connection: 'close' }
+60 silly registry.get cb [ 404,
+60 silly registry.get   { date: 'Sun, 08 Mar 2015 03:47:17 GMT',
+60 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+60 silly registry.get     'content-type': 'application/json',
+60 silly registry.get     'cache-control': 'max-age=0',
+60 silly registry.get     'content-length': '52',
+60 silly registry.get     'accept-ranges': 'bytes',
+60 silly registry.get     via: '1.1 varnish',
+60 silly registry.get     age: '0',
+60 silly registry.get     'x-served-by': 'cache-jfk1020-JFK',
+60 silly registry.get     'x-cache': 'MISS',
+60 silly registry.get     'x-cache-hits': '0',
+60 silly registry.get     'x-timer': 'S1425786437.552501,VS0,VE17',
+60 silly registry.get     connection: 'close' } ]
+61 silly lockFile c75fe0d4- -@
+62 silly lockFile c75fe0d4- -@
+63 error Error: not_found document not found: -
+63 error     at RegClient.<anonymous> (c:\ProgramData\chocolatey\lib\npm.1.4.9\tools\node_modules\npm\node_modules\npm-registry-client\lib\request.js:273:14)
+63 error     at Request._callback (c:\ProgramData\chocolatey\lib\npm.1.4.9\tools\node_modules\npm\node_modules\npm-registry-client\lib\request.js:211:65)
+63 error     at Request.self.callback (c:\ProgramData\chocolatey\lib\npm.1.4.9\tools\node_modules\npm\node_modules\request\request.js:123:22)
+63 error     at Request.emit (events.js:110:17)
+63 error     at Request.<anonymous> (c:\ProgramData\chocolatey\lib\npm.1.4.9\tools\node_modules\npm\node_modules\request\request.js:893:14)
+63 error     at Request.emit (events.js:129:20)
+63 error     at IncomingMessage.<anonymous> (c:\ProgramData\chocolatey\lib\npm.1.4.9\tools\node_modules\npm\node_modules\request\request.js:844:12)
+63 error     at IncomingMessage.emit (events.js:129:20)
+63 error     at _stream_readable.js:908:16
+63 error     at process._tickCallback (node.js:355:11)
+64 error If you need help, you may report this *entire* log,
+64 error including the npm and node versions, at:
+64 error     <http://github.com/npm/npm/issues>
+65 error System Windows_NT 6.3.9600
+66 error command "node" "c:\\ProgramData\\chocolatey\\lib\\npm.1.4.9\\tools\\node_modules\\npm\\bin\\npm-cli.js" "install" "-" "g" "jspm"
+67 error cwd c:\wsurf
+68 error node -v v0.12.0
+69 error npm -v 1.4.9
+70 verbose exit [ 1, true ]
