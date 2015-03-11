@@ -1,10 +1,14 @@
 var path = require('path');
 
-var appRoot = 'src/client';
+var appRoot = 'src/client/';
+var serverRoot = 'src/server/';
 
 module.exports = {
   root: appRoot,
+  serverRoot: serverRoot,
+  nodeServer : serverRoot + "app.js",
   source: appRoot + '**/*.js',
+  serverSource: appRoot + '**/*.js',
   html: appRoot + '**/*.html',
   style: 'styles/**/*.css',
   output: 'dist/',
