@@ -11,7 +11,7 @@ module.exports = {
   serverSource: appRoot + '**/*.js',
   html: appRoot + '**/*.html',
   style: 'styles/**/*.css',
-  output: 'dist/',
+  output: 'dist/client',
   doc:'./doc',
   e2eSpecsSrc: 'test/e2e/src/*.js',
   e2eSpecsDist: 'test/e2e/dist/'
