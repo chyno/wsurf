@@ -34,8 +34,20 @@ app.get('/ping', function(req, res, next) {
     console.log(req.body);
     res.send('pong');
 });
+var options = {
+  dotfiles: 'ignore',
+  etag: false,
+  extensions: ['htm', 'html'],
+  index: false,
+  maxAge: '1d',
+  redirect: false,
+  setHeaders: function (res, path, stat) {
+    res.set('x-timestamp', Date.now())
+  }
+};
 
-app.use('/*', express.static('./src/client/index.html'));
+//app.use('/index', express.static('./index.html'));
+app.use(express.static('.', options));
 app.listen(port, function() {
     console.log('Express server listening on port ' + port);
     console.log('env = ' + app.get('env') +
